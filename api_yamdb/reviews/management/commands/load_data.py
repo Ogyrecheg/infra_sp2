@@ -4,8 +4,8 @@ from django.core.management import BaseCommand
 from reviews.models import (Category, Comment, Genre, Review, Title,
                             TitleGenre, User)
 
-MODEL = Category  # Укажите имя модели
-DATA_FILE = 'category.csv'  # Укажите имя файла csv с данными
+MODEL = Category
+DATA_FILE = 'category.csv'
 
 
 class Command(BaseCommand):
