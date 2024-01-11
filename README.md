@@ -5,17 +5,7 @@
 # Описание
 Приложение позволяет оставлять отзывы о произведениях в различных категориях и жанрах, а также оставлять оценки произведениям и комментировать существующие отзывы.
 
-В рамках проекта использовались следующие технологии:
-##### Python 3.7
-##### Django 2.2.16
-##### PostgreSQl 13.0
-##### DRF 3.12.4
-##### GitHub
-##### Nginx 1.21.3
-##### Gunicorn 20.0.4
-##### Docker 20.10.22
-
-## Как развернуть проект на локальной машине:
+## Запуск проекта:
 Скопируйте проект из репозитория одного из авторов проекта:
 ```bash 
 git clone https://github.com/Ogyrecheg/infra_sp2.git
@@ -50,3 +40,16 @@ http://localhost/admin/
 cd api_yamdb
 python manage.py loaddata ../infra/fixtures.json
 ```
+
+**Технологии:**
+- Python
+- Django
+- PostgreSQl
+- DRF
+- GitHub, GitActions
+- Nginx
+- Gunicorn
+- Docker
+
+### Автор проекта:
+студент когорты №17 [Шевченко Александр](https://github.com/Ogyrecheg)
