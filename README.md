@@ -46,7 +46,7 @@ python manage.py loaddata ../infra/fixtures.json
 - Django
 - PostgreSQl
 - DRF
-- GitHub, GitActions
+- GitHub
 - Nginx
 - Gunicorn
 - Docker
